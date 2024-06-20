@@ -21,7 +21,7 @@ def detect_objects(image_path, model, conf_threshold):
     return im
 
 # Streamlit app
-st.title("Bryan & Lys Folder Images Only:n Sink Detection YOLO Models")
+st.title("Combined-Labeling-Jobs-Images:n Sink Detection YOLO Models")
 
 # Dropdown menu to select the model
 model_options_pt = [
