@@ -52,7 +52,7 @@ model_options = model_options_pt
 model_choice = st.selectbox("Choose a model", model_options)
 
 # Confidence threshold input slider
-conf_threshold = st.slider("Confidence Threshold", 0.0, 1.0, 0.5, 0.01)
+conf_threshold = st.slider("Confidence Threshold", 0.0, 1.0, 0.25, 0.01)
 
 # File uploader to upload multiple images
 uploaded_files = st.file_uploader("Choose images...", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
